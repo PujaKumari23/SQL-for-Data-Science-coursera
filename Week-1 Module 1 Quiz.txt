@@ -1,4 +1,4 @@
-<h2>Module 1 Quiz</h2>
+Module 1 Quiz
 
 1.Question 1
 Select the jobs below that may use SQL in their work (select all that apply).
