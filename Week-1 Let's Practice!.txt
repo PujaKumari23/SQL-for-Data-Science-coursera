@@ -1,0 +1,47 @@
+Let's Practice!
+
+TOTAL POINTS 5
+
+1.Question 1
+This statement will return an error. Please list why.
+SELECT
+TrackID
+Name
+AlbumID
+FROM tracks
+
+Correct : It's missing comma after "TrackID", and "Name"
+
+2.Question 2
+In the ER diagram below, the infinity symbol is representing a "many" relationship and the key is representing "one".
+Select all the tables that have a one-to-many relationship.
+
+Correct : (multiple)
+Artist to Albums
+Customers to Invoices
+Employees to Customers
+
+
+3.Question 3
+When using SQLite, what datatypes can you assign to a column when creating a new table? Select all that apply.
+
+Correct (multiple) : 
+Integer
+Text
+Null
+
+
+4.Question 4
+Primary Keys must be unique values.
+
+Correct : True
+
+
+5.Question 5
+What is the query below missing in order to execute?
+albums.title as album_title,
+tracks.name as track_name 
+FROM tracks 
+JOIN albums ON tracks.albumid = albums.albumid
+
+Correct : Select
