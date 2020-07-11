@@ -28,7 +28,7 @@ When using SQLite, what datatypes can you assign to a column when creating a new
 Correct (multiple) : 
 Integer
 Text
-Null
+Real
 
 
 4.Question 4
