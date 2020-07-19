@@ -1,0 +1,94 @@
+Module 2 Quiz
+
+1.Question 1
+Filtering data is used to do which of the following? (select all that apply)
+
+Correct : (Multiple)
+	a.  Narrows down the results of the data.
+	b.  Reduces the strain on the client application
+	c.  Removes unwanted data in a calculation
+
+
+
+2.Question 2
+You are doing an analysis on musicians that start with the letter “K”. 
+Select the correct query that would retrieve only the artists whose name starts with this letter.
+
+Correct : Select name 
+	from artists 
+	where name LIKE 'K%';
+
+
+
+3.Question 3
+A null and a zero value effectively mean the same thing. True or false?
+
+Correct : 
+	False
+
+
+
+4.Question 4
+Select all that are true regarding wildcards (Select all that apply.)
+
+Correct : (Multiple)
+	a.  Wildcards at the end of search patterns take longer to run
+	b.  Wildcards take longer to run compared to a logical operator
+
+
+
+5.Question 5
+Select the statements below that ARE NOT true of the ORDER BY clause (select all that apply).
+
+Correct : (Multiple)
+	a.  Cannot sort by a column not retrieved
+	b.  Can be anywhere in the select statement
+
+
+6.Question 6
+Select all of the valid math operators in SQL (select all that apply).
+
+Correct : (Multiple)
+	+ (addition)
+	- (subtraction)
+	* (multiplication)
+	/ (division)
+
+
+
+7.Question 7
+Which of the following is an aggregate function? (select all that apply)
+
+Correct : (Multiple)
+	COUNT()
+	MIN()
+	MAX()
+
+
+
+8.Question 8
+Which of the following is true of GROUP BY clauses? (Select all that apply.)
+
+Correct : (Multiple)
+	a.  Every column in your select statement may/can be present in a group by clause, except for aggregated calculations.
+	b.  NULLs will be grouped together if your Group By column contains NULLs
+	c.  GROUP BY clauses can contain multiple columns
+
+
+
+9.Question 9
+Select the true statement below.
+
+Correct : 
+	HAVING filters after the data is grouped.
+
+
+
+
+10.Question 10
+Which is the correct order of occurrence in a SQL statement?
+
+Correct : 
+	select, from, where, group by, having
+
+
